@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+
+
+
+DEPLLYED WEBSITE LINK :  https://shaleens1994.github.io/reactportfolioshaleens1994/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
