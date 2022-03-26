@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box; /* Margin and padding vvalue are applied to all parts of the element */
+    padding: 0;
+    margin: 0;
+}
+/* background color for the body part */
+body {
+    background-color: #d9dcd6;
+}
+
+.header { /* header element properties */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1d1c29;
+    color: #ffffff;
+}
+
+ .header h1 { /* h1 inside header element properties */
+    display: inline-block;
+    font-size: 48px;
+    background-color: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header section {
+    padding-top: 15px;
+    margin-right: 40px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block; /* for displaying it to the right of header and on one line  */
+    margin-left: 25px;
+   
+}
+
+header a {
+   
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+.hero { /* class hero is called which has an image and its properties*/
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/website-programming-code-picjumbo-com.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.profilepic img { /* profile picture */
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 340px;
+    bottom: 0;
+    margin-left: 20px;
+}
+.imagetext {
+    position:absolute;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    top: 200px;
+    background-color: white;
+    left:1400px;
+    height:50px;
+    
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.contentsec {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+#about1 {   /* id search engine optimization */
+    height: 100px;
+    width: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #050505;
+   
+   
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    
+    
+   
+}
+
+
+
+
+
+#about {   /* id search engine optimization */
+    height: 160px;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #050505;
+   
+    text-align: left;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    
+
+    
+   
+}
+
+#about2 {   /* id search engine optimization */
+    height: 200px;
+    width: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #050505;
+   
+    text-align: right;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+}
+.description {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    flex: 10 1 0;
+    margin-left: 30px;
+    border-left-style: solid;
+    border-left-width: medium;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+    }
+    
+    
+.work {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+#work1 {
+width: 100%;
+flex: 10 1 0;
+margin-left: 50px; 
+padding-left: 20px;
+border-left-style: solid;
+border-left-width: medium; 
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+#work2 {
+    
+    flex: 17 1 0;
+    margin-left: 50px;  
+    margin-top: 50px;
+    border-left-style: solid;
+border-left-width: medium; 
+    }
+    
+#work2 ul li {
+   list-style-type: none;
+    margin-left: 25px;
+    padding: 2px;
+    margin-right: 40px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+}
+#work2 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#work2 a {
+    color: black;
+}
+
+
+#work1 .img1 {
+    font-size: 60px;
+    color: chocolate;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    
+
+}
+
+
+.img1:hover,.img2:hover { /* imahe hover highlight */
+    border: 7px solid rgb(59, 146, 158); 
+  }
+
+
+
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.contactme #about {
+    height:200px;
+}
+
+
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer { /* footer properties, including style position etc */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* responsive layout propoerties */
+@media screen and (max-width: 768px) {
+    #content,
+    #hero, .contentsec {
+      flex-direction: column;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .img1, .img2 {
+      width: 600px;
+      height: 200px;
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+   .contentsec {
+      display: none;
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header {
+       background-color: green;
+       
+     }
+   }
+
+   .imgContainer {
+       position: relative;
+       margin-right: 50px;
+   }
+   .portfolio {
+       position: absolute;
+       bottom: 50px
+   }
+
+   .container1, .container2 {
+       display: flex;
+       flex-wrap: wrap;
+   }
