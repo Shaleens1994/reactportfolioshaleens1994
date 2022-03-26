@@ -1,0 +1,14 @@
+.intro{
+    background-color: rgb(32, 178, 105);
+    font-size:large;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    position:sticky;
+	top:0;
+z-index: 500;
+}
+.style{
+    margin: 20px;
+}
