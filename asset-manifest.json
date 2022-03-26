@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactportfolioshaleens1994/static/css/main.b2b69189.css",
+    "main.js": "/reactportfolioshaleens1994/static/js/main.3d870f1d.js",
+    "static/media/pex0.jpg": "/reactportfolioshaleens1994/static/media/pex0.43eaa34c23ae14b4438d.jpg",
+    "static/media/pex6.jpg": "/reactportfolioshaleens1994/static/media/pex6.1b47d77d6ec1556cbb31.jpg",
+    "static/media/welcome.jpg": "/reactportfolioshaleens1994/static/media/welcome.baf82bff0266b026ebca.jpg",
+    "static/media/pex5.jpg": "/reactportfolioshaleens1994/static/media/pex5.3eb93b6660f8e4f3a94c.jpg",
+    "static/media/pex3.jpg": "/reactportfolioshaleens1994/static/media/pex3.dce567025436b7748196.jpg",
+    "static/media/pex4.jpg": "/reactportfolioshaleens1994/static/media/pex4.94fa6427b8c7dd9ebba8.jpg",
+    "static/media/pex2.jpg": "/reactportfolioshaleens1994/static/media/pex2.e4be5bf9a588779d3695.jpg",
+    "static/media/pex1.jpg": "/reactportfolioshaleens1994/static/media/pex1.82a3b3ee27de996f3fd0.jpg",
+    "static/media/DP.png": "/reactportfolioshaleens1994/static/media/DP.cdd2a0675aedd3880b90.png",
+    "index.html": "/reactportfolioshaleens1994/index.html",
+    "main.b2b69189.css.map": "/reactportfolioshaleens1994/static/css/main.b2b69189.css.map",
+    "main.3d870f1d.js.map": "/reactportfolioshaleens1994/static/js/main.3d870f1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2b69189.css",
+    "static/js/main.3d870f1d.js"
+  ]
+}
